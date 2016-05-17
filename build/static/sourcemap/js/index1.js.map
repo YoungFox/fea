@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./dev/src/js/entry1.js"],"names":[],"mappings":";;;;;;AAAA,KAAI,MAAM,oBAAQ,CAAR,CAAV,C","file":"js/index1.js","sourcesContent":["var dot = require('./lib/doT.js');\n\n\n/** WEBPACK FOOTER **\n ** ./dev/src/js/entry1.js\n **/"],"sourceRoot":""}
