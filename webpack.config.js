@@ -1,7 +1,6 @@
 /**
- * config0
+ * config
  * 适用单页面
- * 编译的目录结构与燕尾服相同
  *不一定非要全写成json，这个config就是一个node.js module，可以写任何JavaScript
  */ 
 
@@ -66,9 +65,6 @@ module.exports={
             }
         }),
         new webpack.optimize.CommonsChunkPlugin({name:'common',minChunks: 2})
-        // new webpack.optimize.CommonsChunkPlugin({name:'doT',minChunks: Infinity}),
-        // new webpack.optimize.CommonsChunkPlugin({name:'index'})
-
     ],
     resolve: {
         //配置查找模块的路径和扩展名和别名（方便书写）

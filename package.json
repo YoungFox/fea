@@ -1,44 +1,37 @@
 {
-  "name": "feauto",
+  "name": "fea",
   "version": "1.0.0",
-  "description": "前端自动化实践",
-  "main": "webpack.config.js",
+  "description": "前端工程化",
+  "main": "gulpfile.js",
   "dependencies": {
-    "css-loader": "^0.23.1",
-    "jquery": "^2.2.3",
-    "jsx-loader": "^0.13.2",
-    "file-loader": "^0.8.5",
-    "style-loader": "^0.13.0",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1"
-  },
-  "devDependencies": {
-    "babel-core": "^6.7.7",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-core": "^6.9.0",
     "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.6.0",
-    "browser-sync": "^2.12.5",
-    "extract-loader": "0.0.2",
+    "css-loader": "^0.23.1",
+    "browser-sync": "^2.12.8",
     "extract-text-webpack-plugin": "^1.0.1",
     "gulp": "^3.9.1",
-    "gulp-livereload": "^3.8.1",
-    "gulp-util": "^3.0.7",
     "html-loader": "^0.4.3",
-    "html-webpack-plugin": "^2.16.0",
-    "raw-loader": "^0.5.1"
+    "gulp-util": "^3.0.7",
+    "gulp-sass": "^2.3.1",
+    "html-webpack-plugin": "^2.17.0",
+    "url-loader": "^0.5.7",
+    "webpack-dev-server": "^1.14.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
   },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --inline  --hot --content-base build/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YoungFox/feauto.git"
+    "url": "git+https://github.com/YoungFox/fea.git"
   },
-  "author": "YWL",
+  "author": "YoungFox",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YoungFox/feauto/issues"
+    "url": "https://github.com/YoungFox/fea/issues"
   },
-  "homepage": "https://github.com/YoungFox/feauto#readme"
+  "homepage": "https://github.com/YoungFox/fea#readme"
 }
