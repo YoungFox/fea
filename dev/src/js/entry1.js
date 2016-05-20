@@ -1,1 +1,0 @@
-var dot = require('./lib/doT.js');

@@ -14,4 +14,4 @@ $(window).on('click',function (){
 var Banner = require('./components/banner/banner');
 var banner = new Banner('我是banner');
 banner.ini();
-console.log('entry');
+console.log('入口');

@@ -1,37 +1,70 @@
 {
-  "name": "fea",
-  "version": "1.0.0",
-  "description": "前端工程化",
-  "main": "gulpfile.js",
-  "dependencies": {
-    "babel-preset-es2015": "^6.9.0",
-    "babel-core": "^6.9.0",
-    "babel-loader": "^6.2.4",
-    "css-loader": "^0.23.1",
-    "browser-sync": "^2.12.8",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "gulp": "^3.9.1",
-    "html-loader": "^0.4.3",
-    "gulp-util": "^3.0.7",
-    "gulp-sass": "^2.3.1",
-    "html-webpack-plugin": "^2.17.0",
-    "url-loader": "^0.5.7",
-    "webpack-dev-server": "^1.14.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.0"
+  "_args": [
+    [
+      "fea",
+      "/360/dev/test/npm-test/test-module"
+    ]
+  ],
+  "_from": "fea@latest",
+  "_id": "fea@1.0.21",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/fea",
+  "_nodeVersion": "4.4.4",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/fea-1.0.21.tgz_1463649440013_0.14819191303104162"
   },
+  "_npmUser": {
+    "email": "yang6233562@gmail.com",
+    "name": "youngfox"
+  },
+  "_npmVersion": "3.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "fea",
+    "raw": "fea",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fea/-/fea-1.0.21.tgz",
+  "_shasum": "d27f94ed6cc3a20e9641de9c1f52ea57a36da5a6",
+  "_shrinkwrap": null,
+  "_spec": "fea",
+  "_where": "/360/dev/test/npm-test/test-module",
+  "author": "",
+  "bin": {
+    "fea": "./bin/fea.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.0",
+    "yargs": "^4.7.1"
+  },
+  "description": "前端工程化",
   "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d27f94ed6cc3a20e9641de9c1f52ea57a36da5a6",
+    "tarball": "https://registry.npmjs.org/fea/-/fea-1.0.21.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "yang6233562@gmail.com",
+      "name": "youngfox"
+    }
+  ],
+  "name": "fea",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YoungFox/fea.git"
-  },
-  "author": "YoungFox",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YoungFox/fea/issues"
-  },
-  "homepage": "https://github.com/YoungFox/fea#readme"
+  "version": "1.0.21"
 }
